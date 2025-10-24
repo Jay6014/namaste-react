@@ -7,7 +7,7 @@
 .parcel-cache
 
 # Build output
-/dist
+
 
 # Coverage reports (from Jest)
 /coverage
