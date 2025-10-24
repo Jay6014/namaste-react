@@ -103,4 +103,9 @@ START THE SERVER:
 -----------------
     npm start
     http://localhost:1234/
+    
+
+HOSTING URL:
+-----------
+    https://namaste-react-7n0d.onrender.com/
 
