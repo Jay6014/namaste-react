@@ -22,7 +22,7 @@ app.get("/dapi/menu/pl", (req, res) => {
 });
 
 // Serve React frontend from dist
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, '../dist')));
 
 // Catch-all for React routing
 app.use((req, res) => {
