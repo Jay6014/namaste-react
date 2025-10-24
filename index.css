@@ -1,0 +1,246 @@
+
+@import "tailwindcss"
+
+/* .logo{
+    width: 130px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    align-items: center;  //Aligns all items vertically
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+} 
+
+.nav-items ul li {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-items ul li:hover {
+    color: #ff6600;
+}
+
+.cart-img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cart-img:hover {
+    transform: scale(1.1);
+}
+
+.cartContainer {
+    display: flex;
+    align-items: center;
+}
+
+.body {
+    width: 100%;
+    padding: 20px;
+}
+
+.search-filter {
+    position: sticky;
+    top: 100px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between; // left-section and filter-btn apart 
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.search-box {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+.search-btn,
+.filter-btn,
+.all-resto-btn {
+    padding: 10px 16px;
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.filter-btn {
+    white-space: wrap; // prevent wrapping 
+    width: 250px; // optional: limit width 
+    overflow: hidden; // if text is too long 
+    margin-right: 30px;
+}
+
+
+.search-btn:hover,
+.filter-btn:hover {
+    background-color: #e07b00;
+}
+
+
+.search {
+  display: flex;
+  gap: 10;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 10px; // space between input and search button 
+}
+
+.restaurant-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; // ensures equal height 
+    gap: 20px;
+    justify-content: center;
+    max-width: 1350px;
+    margin: 20px auto;
+
+}
+
+.restaurant-card{
+   padding: 5px;
+    flex: 1 1 220px;
+    max-width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.restaurant-card:hover{
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.res-logo{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+h3 { 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+h4, span {
+     font-size: 14px;
+     color: #555; 
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 10px;
+  gap: 4px; // space between number and star
+}
+
+.rating-star{
+    color: white;
+}
+
+.rating-val {
+    color: white;
+}
+
+
+.restaurant-card span {
+    display: block;
+    font-size: 14px;
+    margin: 8px 0;
+    white-space: normal;   // Allow wrapping 
+    word-wrap: break-word; // Break long words if needed 
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .loading-container {
+  display: flex;               // Use Flexbox 
+  justify-content: center;     //Center horizontally 
+  align-items: center;         // Center vertically //
+  height: 300px;               // Or 100vh for full screen //
+}
+
+.loading-container img {
+  width: 80px;                 // Adjust size of the GIF //
+  height: 80px;                // Keep proportions //
+  object-fit: contain;         // Avoid distortion //
+} 
+
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 250px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.restaurant-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; // Makes the whole card clickable 
+}
+
+.user-card{
+    border: 1px solid black;
+}
+
+*/

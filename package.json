@@ -1,0 +1,50 @@
+{
+  "name": "foodorderingapp",
+  "version": "1.0.0",
+  "description": "1. git init \r     2. git branch -M main\r     3. Create README.md file\r     3. git add .\r     4. git commit -m \"episode-1\"\r     5. git remote add origin https://github.com/Jay6014/namaste-react.git\r     6. git push origin main",
+  "homepage": "https://github.com/Jay6014/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/Jay6014/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay6014/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Jaya Sree",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "watch-test": "jest --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "babel-jest": "^30.1.2",
+    "jest": "^30.1.3",
+    "jest-environment-jsdom": "^30.1.2",
+    "parcel": "^2.15.4"
+  },
+  "browserslist": [
+    "last 10 Chrome version",
+    "last 2 Firefox version"
+  ],
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tailwindcss/postcss": "^4.1.12",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
+    "react-router": "^6.30.1",
+    "react-router-dom": "^6.30.1",
+    "tailwindcss": "^4.1.12"
+  },
+  "keywords": []
+}
